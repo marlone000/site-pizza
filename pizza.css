@@ -1,7 +1,6 @@
-
 body, ul, li, p {
-    margin-block: 20px;
-    margin-inline: 40px;
+    margin: 5px;
+    padding: 5px;
     list-style: none;
     font-size: 1rem;
     font-family: Arial;
@@ -37,7 +36,7 @@ header{
 }
  
 h1{
-    text-align: center;
+    text-align: left;
     margin-top: 5rem;
 }
  
@@ -48,9 +47,18 @@ h1{
     padding: 0px;
     margin: 0 auto;
 }  
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+ol{
+    display: flex;
+    justify-content: space-between;
+}
 section{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 footer{
     display:flex;
@@ -63,3 +71,4 @@ footer{
     bottom: 0;
     align-content: flex-end;
 }
+ 
