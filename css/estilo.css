@@ -9,7 +9,7 @@
 }
 
 body {
-  background: black;
+ background-image: url("/img/fundo.jpg");
   padding: 100%;
   font-family: "Montserrat";
   margin: 0;
